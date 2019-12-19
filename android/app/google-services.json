@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "542960556078",
+    "firebase_url": "https://tringooo.firebaseio.com",
+    "project_id": "tringooo",
+    "storage_bucket": "tringooo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542960556078:android:196bdf450bcf19072967bf",
+        "android_client_info": {
+          "package_name": "com.example.pexootest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542960556078-jnd2isglvq2d4d52vg0sv4nfpbhk9jrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDk6mU9mtLQLd4BMZetCRJRbok2npMzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542960556078-jnd2isglvq2d4d52vg0sv4nfpbhk9jrn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "542960556078-5qll1qd0lum8qkoifb6027cqgt6md7s2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pexootest",
+                "app_store_id": "12345"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
