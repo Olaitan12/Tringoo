@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:ui' as prefix0;
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -122,7 +122,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   child: new BackdropFilter(
-                    filter: new prefix0.ImageFilter.blur(sigmaX: 12, sigmaY: 12),
+                    filter: new ImageFilter.blur(sigmaX: 0.5, sigmaY: 0.5),
                     child: new Container(
                       decoration: new BoxDecoration(
                         color: Colors.white.withOpacity(.2),
@@ -251,7 +251,7 @@ class _SignupPageState extends State<SignupPage> {
                   ),
                 ),
                 child: new BackdropFilter(
-                  filter: new prefix0.ImageFilter.blur(sigmaX: 12, sigmaY: 12),
+                  filter: new ImageFilter.blur(sigmaX: 0.5, sigmaY: 0.5),
                   child: new Container(
                     decoration: new BoxDecoration(
                       color: Colors.white.withOpacity(.2),
