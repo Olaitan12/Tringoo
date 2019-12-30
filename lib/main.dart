@@ -184,7 +184,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       label: Text("Sign in to Tringoo",
                       style: TextStyle(color: Colors.white),),
                       onPressed: () {
-                        print('Gbayi');
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
                       },
                     ),
                   ),
@@ -379,8 +379,11 @@ class WelcomeScreen extends StatefulWidget {
 class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    
+    return Scaffold(
       
+      appBar: new AppBar(),
+      body: Text('Welcome to TRINGOO'),
     );
   }
 }
